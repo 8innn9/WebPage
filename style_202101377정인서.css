@@ -1,0 +1,196 @@
+body {
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	margin : 0;
+	padding: 0;
+}
+
+#head {
+	background-color: #609966;
+	margin: 10px;
+	padding: 20px;
+	color: whitesmoke;
+	cursor: pointer;
+}
+
+#big {
+	font-size: 100px;
+	text-align: center;
+	width : 70%;
+	height: 700px;
+	color: #EDF1D6;
+	background: #557153;
+	font-weight: 700;
+	text-shadow: 5px 5px 0px #9DC08B, 10px 10px 0px #A6BB8D, 
+				15px 15px 0px #609966, 20px 20px 0px #61876E, 
+				25px 25px 0px #3C6255, 30px 30px 0px #3C6255, 
+				35px 35px 0px #3C6255, 40px 40px 0px #3C6255;
+	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#small {
+	color: #EDF1D6;
+	text-shadow: none;
+	font-size: 40px;
+}
+
+#menu {
+	width : 50%;
+	padding : 30px;
+	text-align: center;
+	border-radius: 20px;
+	background-color: #EDF1D6;
+	position: relative;
+	top : -210px;
+	left: 25%;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.text {
+	font-weight : 700;
+	border-radius: 40px;
+	background-color: #609966;
+	padding : 10px;
+	margin : 5px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color : aliceblue;
+}
+
+#part1 {
+	background-color: #9DC08B;
+	padding : 50px;
+	color: #40513B;
+}
+
+.title {
+	font-size: 130px;
+	color: whitesmoke;
+	text-shadow: 2px 2px 6px black;
+}
+
+.subtitle {
+	background-color: #EDF1D6;
+	color: black;
+	font-size: 30px;
+	margin: 5px;
+	padding: 5px;
+}
+
+p {
+	font-size : 25px;
+	margin: 5px;
+}
+
+ul li {
+	font-size : 25px;
+}
+
+#example {
+	margin-left : auto;
+	margin-right : auto;
+}
+
+#example td{
+	padding : 30px;
+	float: left;
+}
+
+#name {
+	text-align: center;
+	font-size : 40px;
+	font-weight: 700;
+}
+
+#content {
+	text-align: center;
+	font-size: 25px;
+	padding: 10px;
+}
+
+img {
+	cursor: pointer;
+}
+
+#part2 {
+	background-color: #609966;
+	padding : 50px;
+}
+
+.question {
+	font-size : 35px;
+	font-weight: 600;
+	border-bottom : 4px solid #EDF1D6;
+	padding: 5px;
+}
+
+.answer {
+	transition : font-size 2s;
+}
+
+.answer:hover {
+	font-size : 30px;
+}
+
+#part3 {
+	background-color: #ADC2A9;
+	padding : 50px;
+}
+
+#planDiv {
+	text-align: center;
+}
+
+.plan {
+	display:inline-block;
+	font-size : 40px;
+	border-radius: 50%;
+	background-color: #EDF1D6;
+	width:350px;
+	height:350px;
+	text-align: center;
+	margin : 20px
+}
+
+.planEx {
+	color: #40513B;
+}
+
+#colorChange { 
+	position : fixed;
+	bottom : 10px;
+	right :10px;
+}
+
+#footer {
+	background-color: lightgrey;
+	color:darkgrey;
+	padding : 50px;
+}
+
+#footer p {
+	color : #5F5F5F;
+	font-size: 18px;
+}
+
+#footer a {
+	color : #5F5F5F;
+	font-size: 15px;
+	margin:7px;
+}
+
+#footer a:hover {
+	color:whitesmoke;
+}
+
+#profile {
+	font-size: 23px;
+	color : #5F5F5F;
+}
